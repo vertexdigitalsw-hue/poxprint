@@ -1,0 +1,278 @@
+{
+  "grafica": {
+    "adesivos": [
+      { "codigo": "7892099987262", "nome": "Adesivo Fosco", "preco": 4.00 },
+      { "codigo": "7893771478535", "nome": "Adesivo Pequeno", "preco": 5.00 },
+      { "codigo": "7896306726330", "nome": "Adesivo Vinil", "preco": 10.00 },
+      { "codigo": "7894288448691", "nome": "Folha Adesivo 130g", "preco": 7.00 }
+    ],
+    "agendas": [
+      { "codigo": "7891916925906", "nome": "Agenda - 1 DPP Auternativa", "preco": 130.00 },
+      { "codigo": "7894103617073", "nome": "Agenda - Rev", "preco": 150.00 },
+      { "codigo": "7898614923357", "nome": "Agenda 1 Dia por Página A4", "preco": 230.00 },
+      { "codigo": "7898508264429", "nome": "Agenda 1 Dia por Página A5 - Promoção", "preco": 135.00 },
+      { "codigo": "7893968731160", "nome": "Agenda 2 Dias por Página A4", "preco": 177.00 },
+      { "codigo": "7897820332649", "nome": "Agenda 2 Dias por Página A5 - Promoção", "preco": 105.00 },
+      { "codigo": "7892061757442", "nome": "Agenda A5 1 Dia por Página", "preco": 170.00 },
+      { "codigo": "7894135278464", "nome": "Agenda A5 2 Dias por Página", "preco": 130.00 },
+      { "codigo": "7895275232194", "nome": "Agenda A6 1 Dia por Página", "preco": 122.00 },
+      { "codigo": "7895945812466", "nome": "Agenda A6 2 Dias por Páginas", "preco": 78.00 },
+      { "codigo": "7899396870730", "nome": "Agenda Fracionada - 4 Meses 1 Dia por Pág", "preco": 75.00 }
+    ],
+    "albuns": [
+      { "codigo": "7896518670919", "nome": "Álbum de Fotos A5 (para 50 Fotos)", "preco": 80.00 },
+      { "codigo": "7899245416522", "nome": "Álbum de Fotos Polaroid A6 (50 Folhas)", "preco": 65.00 }
+    ],
+    "blocos": [
+      { "codigo": "7895347514746", "nome": "Bloco A6", "preco": 60.00 },
+      { "codigo": "7894425361753", "nome": "Bloco A7", "preco": 7.00 },
+      { "codigo": "7894020196798", "nome": "Bloco de Carne - Personalizado", "preco": 15.00 }
+    ],
+    "botons": [
+      { "codigo": "7891433832046", "nome": "Botons 32mm", "preco": 3.00 },
+      { "codigo": "7898802715535", "nome": "Botons 44mm", "preco": 4.00 },
+      { "codigo": "7897128346560", "nome": "Botons 58mm", "preco": 5.00 }
+    ],
+    "cadernetas": [
+      { "codigo": "7897071344255", "nome": "Caderneta de Gestante A5", "preco": 70.00 },
+      { "codigo": "7898837244512", "nome": "Caderneta de Vacinação", "preco": 80.00 },
+      { "codigo": "7896900858284", "nome": "Reforma de Caderneta de Vacinação", "preco": 50.00 }
+    ],
+    "cadernos": [
+      { "codigo": "7897092646369", "nome": "Caderno 80 Folhas A4", "preco": 155.00 },
+      { "codigo": "7897919275161", "nome": "Caderno A4 - Prateleira", "preco": 120.00 },
+      { "codigo": "7896919801233", "nome": "Caderno A5", "preco": 95.00 },
+      { "codigo": "7892145047186", "nome": "Caderno de 10 Matérias A4", "preco": 240.00 },
+      { "codigo": "7893649087548", "nome": "Caderno de 8 Matéria A4", "preco": 200.00 },
+      { "codigo": "7899121628995", "nome": "Caderno de Pedido A5", "preco": 100.00 },
+      { "codigo": "7892296331523", "nome": "Caderno de Receita A5", "preco": 95.00 },
+      { "codigo": "7896012234686", "nome": "Caderno Devocional A5", "preco": 100.00 },
+      { "codigo": "7892118755575", "nome": "Caderno Devocional A6", "preco": 67.00 },
+      { "codigo": "7893532168262", "nome": "Mini Caderno (Caderno A6)", "preco": 76.00 }
+    ],
+    "calendarios": [
+      { "codigo": "7898484722371", "nome": "Calendário de Geladeira 50 Unidades", "preco": 1.70 },
+      { "codigo": "7891444142462", "nome": "Calendário de Geladeira 100 a 200 Unid", "preco": 1.40 },
+      { "codigo": "7895685541626", "nome": "Calendário de Geladeira Acima de 200 Unid", "preco": 0.90 },
+      { "codigo": "7899869806174", "nome": "Calendário de Geladeira Até 50 Unidades", "preco": 2.00 },
+      { "codigo": "7895105820898", "nome": "Calendário de Mesa A4", "preco": 5.00 },
+      { "codigo": "7893730677368", "nome": "Calendário de Mesa com Foto", "preco": 7.00 },
+      { "codigo": "7893692699675", "nome": "Calendário Encadernado A6", "preco": 20.00 },
+      { "codigo": "7893126031750", "nome": "Mini Calendário de Mesa", "preco": 3.00 }
+    ],
+    "cardapios": [
+      { "codigo": "7894173090455", "nome": "Cardápio Frente", "preco": 10.00 },
+      { "codigo": "7892139049769", "nome": "Cardápio Frente e Verso", "preco": 15.00 }
+    ],
+    "cartoes": [
+      { "codigo": "7895931515098", "nome": "Cartão de Visita Frente/Verso 100 Unid", "preco": 80.00 },
+      { "codigo": "7897222050424", "nome": "Cartão de Visita Frente/Verso 200 Unid", "preco": 110.00 },
+      { "codigo": "7891764271255", "nome": "Cartão de Visita Frente/Verso 50 Unid", "preco": 50.00 },
+      { "codigo": "7894218772056", "nome": "Cartão de Visita s/ Frente 100 Unid", "preco": 50.00 },
+      { "codigo": "7892532093529", "nome": "Cartão de Visita s/ Frente 200 Unid", "preco": 80.00 },
+      { "codigo": "7891144338844", "nome": "Cartão de Visita s/ Frente 50 Unid", "preco": 30.00 },
+      { "codigo": "7892034089563", "nome": "Cartão do SUS Personalizado", "preco": 20.00 }
+    ],
+    "caixinhas": [
+      { "codigo": "7893685724131", "nome": "Caixinha 120 Motivos para Te Amar", "preco": 20.00 },
+      { "codigo": "7894705556039", "nome": "Caixinha de Fotos Sanfona", "preco": 15.00 }
+    ],
+    "chaveiros": [
+      { "codigo": "7899115366339", "nome": "Chaveiro de Identificação Escolar c/ Correntinha", "preco": 7.00 },
+      { "codigo": "7897641652223", "nome": "Chaveiro Natal", "preco": 5.00 },
+      { "codigo": "7892178766139", "nome": "Chaveiro Personalizado", "preco": 7.00 }
+    ],
+    "comandas": [
+      { "codigo": "7897407144900", "nome": "Comandas Restaurante 100 Folhas", "preco": 20.00 },
+      { "codigo": "7891489025355", "nome": "Comandas Restaurante 50 Folhas", "preco": 15.00 }
+    ],
+    "convites": [
+      { "codigo": "7892432149050", "nome": "Convite Digital", "preco": 15.00 }
+    ],
+    "crachas": [
+      { "codigo": "7898219675422", "nome": "Crachá com Jacarezinho", "preco": 10.00 },
+      { "codigo": "7891461842659", "nome": "Crachá sem Jacarezinho", "preco": 7.00 }
+    ],
+    "devocionais": [
+      { "codigo": "7899119684699", "nome": "Devocional do Casal A5", "preco": 100.00 }
+    ],
+    "diversos": [
+      { "codigo": "7899402691120", "nome": "Bobe Goods - 01", "preco": 38.00 },
+      { "codigo": "7896684948201", "nome": "Bolando Bolo Agenda", "preco": 216.00 },
+      { "codigo": "7898207819463", "nome": "Cartela de Etiquetas Escolar", "preco": 25.00 },
+      { "codigo": "7896114007836", "nome": "Etiqueta - Jurts - Juliana 500 Unid", "preco": 0.40 },
+      { "codigo": "7893463963271", "nome": "Papel Fotográfico 180g", "preco": 5.00 },
+      { "codigo": "7896357799765", "nome": "Personalização de Caderno Escolar Brochura Grande", "preco": 35.00 },
+      { "codigo": "7896110585338", "nome": "Personalização de Caderno Escolar Brochura Pequeno", "preco": 25.00 },
+      { "codigo": "7896967584492", "nome": "Personalização de Caderno Escolar de Arame", "preco": 25.00 }
+    ],
+    "livros": [
+      { "codigo": "7899688486458", "nome": "Livro de Nossa História A5", "preco": 75.00 },
+      { "codigo": "7899636194107", "nome": "Livro do Bebê A5", "preco": 90.00 }
+    ],
+    "marcadores": [
+      { "codigo": "7891532403826", "nome": "Marca Página Personalizado Plastificado", "preco": 5.00 },
+      { "codigo": "7895698511005", "nome": "Marca Página Simples", "preco": 1.00 }
+    ],
+    "panfletos": [
+      { "codigo": "7895664941669", "nome": "Panfletos A5", "preco": 0.35 }
+    ],
+    "placas": [
+      { "codigo": "7895604089499", "nome": "Placa Decorativa 20x28cm Personalizada", "preco": 25.00 }
+    ],
+    "planners": [
+      { "codigo": "7898020272858", "nome": "Planner Devocional A5", "preco": 178.00 },
+      { "codigo": "7894297144416", "nome": "Planner Devocional A6", "preco": 97.00 },
+      { "codigo": "7893059459928", "nome": "Planner Diário A5", "preco": 135.00 },
+      { "codigo": "7893580525512", "nome": "Planner Financeiro A5", "preco": 135.00 }
+    ],
+    "polaroids": [
+      { "codigo": "7895488789676", "nome": "Polaroid Tamanho G", "preco": 3.00 },
+      { "codigo": "7897502666710", "nome": "Polaroid Tamanho M", "preco": 2.00 },
+      { "codigo": "7896900860072", "nome": "Polaroid Tamanho P", "preco": 1.00 },
+      { "codigo": "7891225963835", "nome": "Tira Polaroid 3 Fotos", "preco": 3.00 }
+    ],
+    "rifas": [
+      { "codigo": "7891464807396", "nome": "Rifa Digital", "preco": 20.00 },
+      { "codigo": "7898980724213", "nome": "Rifas Numeradas", "preco": 3.00 },
+      { "codigo": "7893920908579", "nome": "Rifas Simples", "preco": 2.50 }
+    ],
+    "tags": [
+      { "codigo": "7897857564099", "nome": "Tag", "preco": 1.00 },
+      { "codigo": "7893303142781", "nome": "Tag 4x7cm - 12 Unidades por Folha", "preco": 7.00 },
+      { "codigo": "7897245297431", "nome": "Tag Caneta", "preco": 5.00 },
+      { "codigo": "7897396798726", "nome": "Tag Escovinha de Sobrancelha", "preco": 3.00 },
+      { "codigo": "7896032778627", "nome": "Tag Lápis", "preco": 3.00 },
+      { "codigo": "7891914118522", "nome": "Tag Lixa de Unha", "preco": 3.00 },
+      { "codigo": "7898473581675", "nome": "Tag Xuxinha", "preco": 3.00 }
+    ],
+    "taloes": [
+      { "codigo": "7895182698366", "nome": "Talão Nota Fiscal Manual A5 100 Folhas", "preco": 35.00 },
+      { "codigo": "7899598897092", "nome": "Talão Nota Fiscal Manual A5 50 Folhas", "preco": 25.00 },
+      { "codigo": "7897139398459", "nome": "Talão Recibo - Loja", "preco": 35.00 },
+      { "codigo": "7891364846822", "nome": "Talão Recibo Restaurante A5", "preco": 25.00 },
+      { "codigo": "7895756497388", "nome": "Talão Restaurante 10x15 50 Folhas", "preco": 20.00 }
+    ]
+  },
+  "lanhouse": {
+    "documentos": [
+      { "codigo": "7899806771879", "nome": "2ª Via Boleto", "preco": 3.00 },
+      { "codigo": "7897788325547", "nome": "Abertura de E-mail", "preco": 10.00 },
+      { "codigo": "7899193536631", "nome": "Certidão Negativa / Antecedência Criminal", "preco": 5.00 },
+      { "codigo": "7891440744998", "nome": "Contratos", "preco": 50.00 },
+      { "codigo": "7895415613050", "nome": "Declaração Particular", "preco": 25.00 },
+      { "codigo": "7893428686269", "nome": "Documento de Veículo", "preco": 10.00 },
+      { "codigo": "7899549219010", "nome": "Nota Fiscal", "preco": 35.00 },
+      { "codigo": "7897742242811", "nome": "Procuração Particular", "preco": 35.00 },
+      { "codigo": "7891056220534", "nome": "Redução de Documento + Plastificação", "preco": 15.00 }
+    ],
+    "impressoes": [
+      { "codigo": "7893365834358", "nome": "Impressão Colorida", "preco": 3.00 },
+      { "codigo": "7899403759249", "nome": "Impressão Preto e Branco", "preco": 2.00 },
+      { "codigo": "7893529321557", "nome": "Papel 180g / Certificado", "preco": 5.00 },
+      { "codigo": "7894555017353", "nome": "Xerox", "preco": 1.00 },
+      { "codigo": "7898185192343", "nome": "Xerox Colorido", "preco": 2.00 }
+    ],
+    "certidoes": [
+      { "codigo": "7896796793348", "nome": "Certificado Frente", "preco": 5.00 },
+      { "codigo": "7892560480834", "nome": "Certificado Frente e Verso", "preco": 7.00 }
+    ],
+    "plastificacao": [
+      { "codigo": "7892848369479", "nome": "CPF + Plastificação", "preco": 15.00 },
+      { "codigo": "7899702524548", "nome": "Plastificação A3", "preco": 30.00 },
+      { "codigo": "7894602378017", "nome": "Plastificação A4", "preco": 10.00 },
+      { "codigo": "7891202051043", "nome": "Plastificação A5", "preco": 7.00 },
+      { "codigo": "7897004749775", "nome": "Plastificação CPF/Cartão SUS", "preco": 5.00 }
+    ],
+    "servicos_digitais": [
+      { "codigo": "7892705189585", "nome": "Arquivos de Entre Pendrive", "preco": 5.00 },
+      { "codigo": "7895078719854", "nome": "Boleto - IPVA / Licenciamento", "preco": 5.00 },
+      { "codigo": "7893304559588", "nome": "Boleto DAS", "preco": 5.00 },
+      { "codigo": "7895319596527", "nome": "Cadastro de Chip de Operadora", "preco": 20.00 },
+      { "codigo": "7891908175340", "nome": "Conta Gov", "preco": 20.00 },
+      { "codigo": "7892924114467", "nome": "Digitação por Pág", "preco": 5.00 },
+      { "codigo": "7891106378437", "nome": "Encadernação", "preco": 5.00 },
+      { "codigo": "7898508572579", "nome": "Instalação de App", "preco": 10.00 },
+      { "codigo": "7899070639615", "nome": "Música Individual", "preco": 1.00 },
+      { "codigo": "7894174007773", "nome": "Música por Pasta", "preco": 2.00 },
+      { "codigo": "7892288137676", "nome": "Scanner", "preco": 2.00 },
+      { "codigo": "7896922658084", "nome": "Senha 02", "preco": 10.00 },
+      { "codigo": "7893920556909", "nome": "Senha Gov / Recuperação de Senha", "preco": 20.00 }
+    ],
+    "curriculo": [
+      { "codigo": "7897849171755", "nome": "Currículo", "preco": 5.00 },
+      { "codigo": "7891171839239", "nome": "Impressão de Currículo", "preco": 2.00 }
+    ],
+    "fotografia": [
+      { "codigo": "7896496698264", "nome": "Foto 10x15cm", "preco": 5.00 },
+      { "codigo": "7894904901388", "nome": "Foto 3x4", "preco": 2.00 }
+    ],
+    "acessorios": [
+      { "codigo": "7895089380142", "nome": "Clipes", "preco": 1.00 },
+      { "codigo": "7893868677025", "nome": "Entrega", "preco": 5.00 }
+    ]
+  },
+  "prateleira": {
+    "agendas": [
+      { "codigo": "7899664425846", "nome": "Agenda 1 Dia por Pág A5 - Prateleira", "preco": 150.00 },
+      { "codigo": "7895540655253", "nome": "Agenda A5 2 Dias por Pág - Prateleira", "preco": 115.00 }
+    ],
+    "blocos_cadernos": [
+      { "codigo": "7895798727276", "nome": "Bloco A6 - Prateleira", "preco": 50.00 },
+      { "codigo": "7895921790597", "nome": "Caderno A5 - Prateleira", "preco": 80.00 },
+      { "codigo": "7899542474744", "nome": "Caderno A6 - Prateleira", "preco": 50.00 },
+      { "codigo": "7899082736371", "nome": "Caderno de Receita - Prateleira", "preco": 80.00 },
+      { "codigo": "7894292675250", "nome": "Caderno Devocional - Prateleira", "preco": 90.00 },
+      { "codigo": "7891235209107", "nome": "Mini Bloco A7 - Prateleira", "preco": 7.00 }
+    ],
+    "canetas": [
+      { "codigo": "7893427654504", "nome": "Caneta BIC Azul", "preco": 2.00 },
+      { "codigo": "7894522755745", "nome": "Caneta BIC Preta", "preco": 2.00 },
+      { "codigo": "7897329828148", "nome": "Caneta Diamante", "preco": 12.00 },
+      { "codigo": "7898549823760", "nome": "Canetas Fofas", "preco": 7.00 },
+      { "codigo": "7899253198502", "nome": "Canetinhas Infantil", "preco": 20.00 }
+    ],
+    "chaveiros": [
+      { "codigo": "7896970483669", "nome": "Chaveiro de Coração", "preco": 7.00 },
+      { "codigo": "7893499279612", "nome": "Chaveiro Prateleira", "preco": 5.00 }
+    ],
+    "didaticos": [
+      { "codigo": "7892718795537", "nome": "Apostilha de Alfabetização", "preco": 40.00 },
+      { "codigo": "7894164870974", "nome": "Jogo da Memória - Prateleira", "preco": 15.00 },
+      { "codigo": "7897794741980", "nome": "Livro de Colorir", "preco": 5.00 },
+      { "codigo": "7892935021518", "nome": "Lousa Mágica", "preco": 15.00 },
+      { "codigo": "7892116605636", "nome": "Mini Bíblia", "preco": 5.00 },
+      { "codigo": "7895294000507", "nome": "Tabuada Escolar", "preco": 10.00 }
+    ],
+    "embalagens": [
+      { "codigo": "7896868641973", "nome": "Embalagem Presente", "preco": 5.00 },
+      { "codigo": "7892980964778", "nome": "Envelope", "preco": 2.00 }
+    ],
+    "kits": [
+      { "codigo": "7893787348273", "nome": "Kit 01", "preco": 60.00 },
+      { "codigo": "7893543772106", "nome": "Kit 02", "preco": 40.00 }
+    ],
+    "marcadores": [
+      { "codigo": "7893930976391", "nome": "Marca Página Plastificado", "preco": 5.00 }
+    ],
+    "papelaria": [
+      { "codigo": "7894261438251", "nome": "Papel A4 Report 500 Folhas", "preco": 35.00 },
+      { "codigo": "7893012903925", "nome": "Pasta Elástica", "preco": 7.00 }
+    ],
+    "placas_quadros": [
+      { "codigo": "7893614339238", "nome": "Placa Decorativa 18x20cm", "preco": 20.00 },
+      { "codigo": "7891275598407", "nome": "Placa Decorativa 20x28cm Prateleira", "preco": 20.00 },
+      { "codigo": "7895905725355", "nome": "Quadro 10x15cm", "preco": 20.00 },
+      { "codigo": "7895930858851", "nome": "Quadro 15x20cm", "preco": 30.00 },
+      { "codigo": "7891784108289", "nome": "Quadro A4 21x29.7cm", "preco": 40.00 },
+      { "codigo": "7896677514918", "nome": "Quadro para Foto 15x20", "preco": 25.00 }
+    ],
+    "planejamento": [
+      { "codigo": "7892344868773", "nome": "Planejamento Diário", "preco": 35.00 },
+      { "codigo": "7894562450648", "nome": "Planejamento Semanal", "preco": 35.00 }
+    ],
+    "presentes": [
+      { "codigo": "7899612976314", "nome": "Caixinha de Versículos", "preco": 25.00 }
+    ]
+  }
+}
