@@ -34,7 +34,7 @@ export default function Hero() {
           src="/logo.jpg"
           alt=""
           fill
-          className="object-cover object-center sm:object-center md:object-[52%_center] lg:object-[55%_center] scale-[1.2] sm:scale-[1.35] md:scale-[1.15] lg:scale-[1.05] opacity-55 sm:opacity-50 md:opacity-45"
+          className="object-cover object-center sm:object-center md:object-[52%_center] lg:object-[55%_center] scale-[1.0] sm:scale-[1.15] md:scale-[1.15] lg:scale-[1.05] opacity-55 sm:opacity-50 md:opacity-45"
           priority
           sizes="100vw"
         />
