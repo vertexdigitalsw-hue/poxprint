@@ -99,7 +99,7 @@ export default function CartDrawer({ open, onClose }: CartDrawerProps) {
             return (
               <div key={s.key} className="flex items-center gap-2 flex-1">
                 <div className={`flex items-center gap-1.5 text-xs font-medium transition-colors ${
-                  active ? "text-primary-light" : done ? "text-success" : "text-gray-dark"
+                  active ? "text-primary" : done ? "text-success" : "text-gray-dark"
                 }`}>
                   <div className={`p-1 rounded-full ${
                     active ? "bg-primary/20" : done ? "bg-success/20" : "bg-white/[0.04]"
@@ -137,12 +137,12 @@ export default function CartDrawer({ open, onClose }: CartDrawerProps) {
                     >
                       <div className="flex items-start gap-3">
                         <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center shrink-0">
-                          <ShoppingBag className="h-5 w-5 text-primary-light" />
+                          <ShoppingBag className="h-5 w-5 text-primary" />
                         </div>
                         <div className="flex-1 min-w-0">
                           <p className="text-sm font-medium text-white leading-snug truncate">{item.product.nome}</p>
                           <p className="text-xs text-gray mt-0.5">{formatPrice(item.product.preco)} / un</p>
-                          <p className="text-sm font-semibold text-primary-light mt-1">
+                          <p className="text-sm font-semibold text-primary mt-1">
                             {formatPrice(item.product.preco * item.quantity)}
                           </p>
                         </div>

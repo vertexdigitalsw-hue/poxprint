@@ -2,7 +2,6 @@
 
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import Image from "next/image";
 import Link from "next/link";
 import { ShoppingCart, Menu, X, Clock } from "lucide-react";
 import { useCart } from "@/context/CartContext";
@@ -76,31 +75,19 @@ export default function Header({ onCartOpen }: HeaderProps) {
         transition={{ duration: 0.3, ease: "easeInOut" }}
         className={`fixed top-0 left-0 right-0 z-40 transition-all duration-500 ${
           scrolled
-            ? "bg-dark-bg/85 backdrop-blur-2xl border-b border-white/[0.06] shadow-2xl shadow-black/20"
-            : "bg-gradient-to-b from-black/30 to-transparent"
+            ? "bg-dark-bg/80 backdrop-blur-2xl border-b border-white/[0.06] shadow-2xl shadow-black/20"
+            : "bg-gradient-to-b from-black/50 to-transparent"
         }`}
       >
         <div className={`max-w-7xl mx-auto px-4 flex items-center justify-between transition-all duration-500 ${
-          scrolled ? "h-14" : "h-16"
+          scrolled ? "h-14" : "h-18"
         }`}>
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className={`relative rounded-xl overflow-hidden ring-2 ring-primary/30 group-hover:ring-primary/60 transition-all duration-300 ${
-              scrolled ? "w-8 h-8" : "w-9 h-9"
+          <Link href="/" className="flex items-center group">
+            <span className={`font-display font-bold text-white tracking-tight transition-all duration-500 ${
+              scrolled ? "text-sm" : "text-base"
             }`}>
-              <Image src="/logo.jpg" alt="Pox Print" fill className="object-cover" />
-            </div>
-            <div className="hidden sm:block">
-              <span className={`font-display font-bold text-white tracking-tight transition-all duration-500 ${
-                scrolled ? "text-base" : "text-lg"
-              }`}>
-                POX PRINT
-              </span>
-              <span className={`block text-[10px] text-gray tracking-widest uppercase transition-all duration-500 ${
-                scrolled ? "opacity-60" : "opacity-100"
-              }`}>
-                Grafica Rapida
-              </span>
-            </div>
+              POX<span className="text-primary">.</span>PRINT
+            </span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-1">
@@ -186,7 +173,7 @@ export default function Header({ onCartOpen }: HeaderProps) {
                     initial={{ scale: 0 }}
                     animate={{ scale: 1 }}
                     exit={{ scale: 0 }}
-                    className="absolute -top-0.5 -right-0.5 bg-primary text-white text-[10px] font-bold rounded-full min-w-[18px] h-[18px] flex items-center justify-center px-1 shadow-lg shadow-primary/30"
+                    className="absolute -top-0.5 -right-0.5 bg-gradient-to-r from-primary to-secondary text-white text-[10px] font-bold rounded-full min-w-[18px] h-[18px] flex items-center justify-center px-1 shadow-lg shadow-primary/30"
                   >
                     {totalItems > 99 ? "99+" : totalItems}
                   </motion.span>

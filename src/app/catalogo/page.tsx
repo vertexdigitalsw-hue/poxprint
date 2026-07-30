@@ -18,7 +18,6 @@ const CATEGORY_FILTERS: { key: MainCategory | "todas"; label: string }[] = [
   { key: "todas", label: "Todos" },
   { key: "grafica", label: "Gráfica" },
   { key: "lanhouse", label: "Lan House" },
-  { key: "prateleira", label: "Prateleira" },
 ];
 
 const ITEMS_PER_PAGE = 24;
@@ -35,7 +34,7 @@ export default function CatalogoPage() {
 
   useEffect(() => {
     const cat = searchParams.get("categoria") as MainCategory | null;
-    if (cat && ["grafica", "lanhouse", "prateleira"].includes(cat)) {
+    if (cat && ["grafica", "lanhouse"].includes(cat)) {
       setActiveCat(cat);
     }
   }, [searchParams]);

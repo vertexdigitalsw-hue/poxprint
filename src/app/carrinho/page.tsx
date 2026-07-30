@@ -48,7 +48,7 @@ export default function CarrinhoPage() {
             return (
               <div key={s.key} className="flex items-center gap-2 flex-1">
                 <div className={`flex items-center gap-2 text-sm font-medium transition-colors ${
-                  active ? "text-primary-light" : done ? "text-success" : "text-gray-dark"
+                    active ? "text-primary" : done ? "text-success" : "text-gray-dark"
                 }`}>
                   <div className={`p-1.5 rounded-full ${
                     active ? "bg-primary/20" : done ? "bg-success/20" : "bg-white/[0.04]"
@@ -79,8 +79,8 @@ export default function CarrinhoPage() {
                   <div key={item.product.id} className="glass rounded-2xl p-4">
                     <div className="flex items-center gap-4">
                       <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center shrink-0">
-                        <ShoppingBag className="h-5 w-5 text-primary-light" />
-                      </div>
+                          <ShoppingBag className="h-5 w-5 text-primary" />
+                        </div>
                       <div className="flex-1 min-w-0">
                         <p className="font-medium text-white text-sm truncate">{item.product.nome}</p>
                         <p className="text-xs text-gray">{formatPrice(item.product.preco)} / un</p>
@@ -95,7 +95,7 @@ export default function CarrinhoPage() {
                             <Plus className="h-3 w-3" />
                           </button>
                         </div>
-                        <p className="text-sm font-semibold text-primary-light w-20 text-right tabular-nums">{formatPrice(item.product.preco * item.quantity)}</p>
+                        <p className="text-sm font-semibold text-primary w-20 text-right tabular-nums">{formatPrice(item.product.preco * item.quantity)}</p>
                         <button onClick={() => removeItem(item.product.id)} className="p-1.5 text-gray-dark hover:text-red-400 transition-colors">
                           <Trash2 className="h-4 w-4" />
                         </button>

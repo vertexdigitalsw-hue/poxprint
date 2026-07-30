@@ -52,7 +52,7 @@ function AccordionItem({ item, index }: { item: { q: string; a: string }; index:
         <span className="text-sm font-medium text-white flex-1">{item.q}</span>
         <ChevronDown
           className={`h-4 w-4 text-gray shrink-0 transition-transform duration-300 ${
-            open ? "rotate-180 text-primary-light" : ""
+            open ? "rotate-180 text-primary" : ""
           }`}
         />
       </button>

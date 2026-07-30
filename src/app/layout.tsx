@@ -18,7 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo.jpg" type="image/jpeg" />
         <link rel="apple-touch-icon" href="/logo.jpg" />
-        <meta name="theme-color" content="#050816" />
+        <meta name="theme-color" content="#F00A78" />
         <meta name="author" content="Pox Print Gráfica Rápida" />
         <meta name="geo.region" content="BR-MT" />
         <meta name="geo.placename" content="Poxoréu" />

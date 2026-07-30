@@ -33,7 +33,7 @@ export default function Footer() {
               </div>
               <div>
                 <span className="font-display text-lg font-bold text-white tracking-tight">
-                  POX PRINT
+                  POX<span className="text-primary">.</span>PRINT
                 </span>
                 <span className="block text-[10px] text-gray tracking-widest uppercase">
                   Gráfica Rápida
@@ -90,7 +90,6 @@ export default function Footer() {
               {[
                 { label: "Gráfica", href: "/catalogo?categoria=grafica" },
                 { label: "Lan House", href: "/catalogo?categoria=lanhouse" },
-                { label: "Prateleira", href: "/catalogo?categoria=prateleira" },
                 { label: "Todos os Produtos", href: "/catalogo" },
               ].map((link) => (
                 <li key={link.href}>

@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Search, ShoppingCart, MessageCircle, Printer, Truck, CheckCircle } from "lucide-react";
+import { Search, ShoppingCart, MessageCircle, Printer, Truck } from "lucide-react";
 
 const STEPS = [
   { icon: Search, title: "Escolha os Produtos", desc: "Navegue pelo catálogo e encontre o que precisa" },
@@ -45,10 +45,10 @@ export default function HowItWorks() {
                   className="relative"
                 >
                   <div className="glass rounded-2xl p-6 text-center h-full glass-hover">
-                    <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors">
-                      <Icon className="h-6 w-6 text-primary-light" />
+                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center mx-auto mb-4 group-hover:from-primary/30 group-hover:to-secondary/30 transition-all duration-300">
+                      <Icon className="h-6 w-6 text-primary" />
                     </div>
-                    <div className="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-primary text-white text-xs font-bold flex items-center justify-center shadow-lg shadow-primary/30">
+                    <div className="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-gradient-to-r from-primary to-secondary text-white text-xs font-bold flex items-center justify-center shadow-lg shadow-primary/30">
                       {index + 1}
                     </div>
                     <h3 className="text-sm font-bold text-white mb-2">{step.title}</h3>

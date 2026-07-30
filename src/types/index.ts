@@ -47,13 +47,6 @@ export const mainCategories: CategoryInfo[] = [
     icon: "💻",
     count: 0,
   },
-  {
-    key: "prateleira",
-    label: "Loja - Prateleira",
-    description: "Produtos prontos para pronta-entrega",
-    icon: "🏪",
-    count: 0,
-  },
 ];
 
 export const subcategoryLabels: Record<string, string> = {
@@ -123,21 +116,21 @@ export const paymentMethods = [
 
 export const mainCategoryColors: Record<MainCategory, { gradient: string; badge: string; border: string; glow: string }> = {
   grafica: {
-    gradient: "from-blue-500 via-cyan-400 to-blue-600",
-    badge: "bg-blue-500/20 text-blue-400 border-blue-500/30",
-    border: "border-blue-500/20",
-    glow: "rgba(37,99,235,0.15)",
+    gradient: "from-primary via-secondary to-primary-dark",
+    badge: "bg-primary/20 text-primary border-primary/30",
+    border: "border-primary/20",
+    glow: "rgba(240,10,120,0.15)",
   },
   lanhouse: {
-    gradient: "from-emerald-500 via-teal-400 to-emerald-600",
-    badge: "bg-emerald-500/20 text-emerald-400 border-emerald-500/30",
-    border: "border-emerald-500/20",
-    glow: "rgba(16,185,129,0.15)",
+    gradient: "from-secondary via-yellow-400 to-secondary",
+    badge: "bg-secondary/20 text-secondary border-secondary/30",
+    border: "border-secondary/20",
+    glow: "rgba(250,204,21,0.15)",
   },
   prateleira: {
-    gradient: "from-amber-500 via-orange-400 to-amber-600",
-    badge: "bg-amber-500/20 text-amber-400 border-amber-500/30",
-    border: "border-amber-500/20",
-    glow: "rgba(245,158,11,0.15)",
+    gradient: "from-accent via-cyan-400 to-accent",
+    badge: "bg-accent/20 text-accent border-accent/30",
+    border: "border-accent/20",
+    glow: "rgba(0,160,220,0.15)",
   },
 };

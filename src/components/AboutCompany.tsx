@@ -22,7 +22,7 @@ const VALUES = [
   {
     icon: Heart,
     title: "Compromisso com o Cliente",
-    desc: "Mais de 10 anos atendendo Poxoréu com dedicação e respeito. Cada cliente é tratado de forma única, do orçamento à entrega final.",
+    desc: "Mais de 5 anos atendendo Poxoréu com dedicação e respeito. Cada cliente é tratado de forma única, do orçamento à entrega final.",
   },
 ];
 
@@ -40,7 +40,7 @@ export default function AboutCompany() {
           <span className="badge-success mb-4">Sobre Nós</span>
           <h2 className="section-title">Conheça a Pox Print</h2>
           <p className="section-subtitle mx-auto mt-4">
-            Há mais de 10 anos sendo referência em gráfica rápida em Poxoréu
+            Há mais de 5 anos sendo referência em gráfica rápida em Poxoréu
           </p>
         </motion.div>
 
@@ -57,8 +57,8 @@ export default function AboutCompany() {
                 className="glass rounded-2xl p-6 glass-hover"
               >
                 <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
-                    <Icon className="h-5 w-5 text-primary-light" />
+                  <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center shrink-0">
+                    <Icon className="h-5 w-5 text-primary" />
                   </div>
                   <div>
                     <h3 className="text-base font-bold text-white mb-1.5">{item.title}</h3>

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { ShoppingCart, Plus, Minus, Eye } from "lucide-react";
+import { ShoppingCart, Plus, Minus, Eye, ArrowRight } from "lucide-react";
 import type { FlatProduct, MainCategory } from "@/types";
 import { mainCategoryColors } from "@/types";
 import { formatPrice } from "@/lib/utils";
@@ -50,31 +50,44 @@ export default function ProductCard({ product, index }: ProductCardProps) {
       className="group relative"
     >
       <div className="relative glass rounded-2xl overflow-hidden h-full flex flex-col card-hover-lift">
-        <div className="relative h-32 sm:h-36 bg-gradient-to-br from-dark-bg via-dark-card to-dark-bg flex items-center justify-center overflow-hidden">
+        <div className="relative h-36 sm:h-44 bg-gradient-to-br from-dark-bg via-dark-card to-dark-bg flex items-center justify-center overflow-hidden">
           <div className={`absolute inset-0 bg-gradient-to-br ${colors.gradient} opacity-[0.08]`} />
-          <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${colors.gradient} flex items-center justify-center text-2xl font-bold text-white shadow-lg transition-transform duration-300 group-hover:scale-110`}>
+          <div className={`w-20 h-20 rounded-2xl bg-gradient-to-br ${colors.gradient} flex items-center justify-center text-3xl font-bold text-white shadow-lg transition-all duration-500 group-hover:scale-110 group-hover:rotate-3`}>
             {initials}
           </div>
-          <div className="absolute top-2 left-2 flex flex-wrap gap-1.5 max-w-[70%]">
+
+          {/* Hover overlay with actions */}
+          <div className="absolute inset-0 bg-gradient-to-t from-dark-bg/90 via-dark-bg/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-400 flex items-center justify-center">
+            <div className="flex gap-3 translate-y-4 group-hover:translate-y-0 transition-transform duration-400">
+              <Link
+                href={`/produto/${product.id}`}
+                className="flex items-center gap-1.5 text-xs font-medium text-white bg-white/10 backdrop-blur-md px-4 py-2 rounded-xl border border-white/20 shadow-lg hover:bg-white/20 transition-all"
+              >
+                <Eye className="h-3.5 w-3.5" />
+                Detalhes
+              </Link>
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                onClick={(e) => { e.preventDefault(); handleAdd(); }}
+                className="flex items-center gap-1.5 text-xs font-medium text-white bg-gradient-to-r from-primary to-secondary px-4 py-2 rounded-xl shadow-lg shadow-primary/30 hover:shadow-glow-lg transition-all"
+              >
+                <ShoppingCart className="h-3.5 w-3.5" />
+                Comprar
+              </motion.button>
+            </div>
+          </div>
+
+          <div className="absolute top-3 left-3 flex flex-wrap gap-1.5 max-w-[70%]">
             <span className={`badge ${colors.badge} text-[10px]`}>
               {categoriaLabel[product.categoria] || product.categoria}
             </span>
           </div>
-
-          <Link
-            href={`/produto/${product.id}`}
-            className="absolute inset-0 flex items-center justify-center bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-          >
-            <span className="flex items-center gap-1.5 text-xs font-medium text-white bg-white/10 backdrop-blur-md px-3 py-1.5 rounded-lg border border-white/20 shadow-lg">
-              <Eye className="h-3.5 w-3.5" />
-              Ver Detalhes
-            </span>
-          </Link>
         </div>
 
-        <div className="p-4 flex flex-col flex-1">
+        <div className="p-5 flex flex-col flex-1">
           <h3 className="text-sm font-semibold text-white leading-snug mb-1.5 line-clamp-2 min-h-[2.5rem]">
-            <Link href={`/produto/${product.id}`} className="hover:text-primary-light transition-colors focus-ring rounded">
+            <Link href={`/produto/${product.id}`} className="hover:text-primary transition-colors focus-ring rounded">
               {product.nome}
             </Link>
           </h3>
@@ -83,7 +96,7 @@ export default function ProductCard({ product, index }: ProductCardProps) {
             Cód: {product.codigo}
           </p>
 
-          <p className="text-xl md:text-2xl font-bold gradient-text mb-3 mt-auto">
+          <p className="text-xl md:text-2xl font-bold gradient-text-accent mb-4 mt-auto">
             {formatPrice(product.preco)}
           </p>
 
@@ -113,7 +126,7 @@ export default function ProductCard({ product, index }: ProductCardProps) {
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.97 }}
               onClick={handleAdd}
-              className="flex-1 bg-primary text-white text-sm font-semibold py-2 px-3 rounded-xl hover:bg-primary-dark transition-all duration-300 shadow-lg shadow-primary/20 hover:shadow-primary/40 flex items-center justify-center gap-1.5 focus-ring"
+              className="flex-1 bg-gradient-to-r from-primary to-secondary text-white text-sm font-semibold py-2 px-3 rounded-xl hover:shadow-lg hover:shadow-primary/30 transition-all duration-300 flex items-center justify-center gap-1.5 focus-ring"
               aria-label={`Adicionar ${product.nome} ao carrinho`}
             >
               <ShoppingCart className="h-3.5 w-3.5" />
@@ -123,8 +136,8 @@ export default function ProductCard({ product, index }: ProductCardProps) {
         </div>
 
         {inCart > 0 && (
-          <div className="absolute top-2 right-2">
-            <span className="text-[10px] font-medium text-primary-light bg-primary/15 backdrop-blur-md px-2 py-0.5 rounded-full border border-primary/20 shadow-sm">
+          <div className="absolute top-3 right-3">
+            <span className="text-[10px] font-medium text-primary bg-primary/15 backdrop-blur-md px-2 py-0.5 rounded-full border border-primary/20 shadow-sm">
               No carrinho: {inCart}x
             </span>
           </div>
@@ -133,7 +146,7 @@ export default function ProductCard({ product, index }: ProductCardProps) {
 
       {toast && (
         <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-[60] toast-enter pointer-events-none">
-          <div className="bg-success/90 backdrop-blur-md text-white text-sm font-medium px-5 py-3 rounded-xl shadow-2xl shadow-success/30 flex items-center gap-2 whitespace-nowrap border border-white/10">
+          <div className="bg-gradient-to-r from-primary to-secondary backdrop-blur-md text-white text-sm font-medium px-5 py-3 rounded-xl shadow-2xl shadow-primary/30 flex items-center gap-2 whitespace-nowrap border border-white/10">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
             </svg>

@@ -3,17 +3,17 @@
 import { motion } from "framer-motion";
 
 const stats = [
-  { value: "170+", label: "Produtos Disponíveis", suffix: "+" },
-  { value: "Entrega", label: "Rápida e Eficiente", suffix: "" },
-  { value: "100%", label: "Qualidade Garantida", suffix: "%" },
-  { value: "1000+", label: "Clientes Satisfeitos", suffix: "+" },
+  { value: "170+", label: "Produtos Disponíveis" },
+  { value: "Entrega", label: "Rápida e Eficiente" },
+  { value: "100%", label: "Qualidade Garantida" },
+  { value: "1000+", label: "Clientes Satisfeitos" },
 ];
 
 export default function Stats() {
   return (
     <section className="relative py-24 overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-dark-bg via-dark-card to-dark-bg" />
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-96 bg-primary/5 rounded-full blur-[100px]" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-96 bg-primary/10 rounded-full blur-[100px]" />
 
       <div className="relative max-w-7xl mx-auto px-4">
         <motion.div

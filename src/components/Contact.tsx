@@ -137,7 +137,7 @@ export default function Contact() {
                 href="https://www.google.com/maps/place/Pox+Print+Gr%C3%A1fica+R%C3%A1pida/@-15.837203,-54.3889498,153m"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 py-3.5 px-4 rounded-xl bg-primary text-white text-sm font-semibold text-center hover:bg-primary-dark transition-all shadow-lg shadow-primary/25"
+                className="flex-1 py-3.5 px-4 rounded-xl bg-gradient-to-r from-primary to-secondary text-white text-sm font-semibold text-center hover:shadow-lg hover:shadow-primary/30 transition-all shadow-lg shadow-primary/25"
               >
                 Abrir no Google Maps
               </a>

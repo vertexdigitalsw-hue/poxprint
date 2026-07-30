@@ -5,8 +5,8 @@ export default function NotFound() {
   return (
     <div className="min-h-screen bg-dark-bg flex items-center justify-center pt-16">
       <div className="max-w-md mx-auto px-4 text-center">
-        <div className="w-24 h-24 rounded-3xl bg-gradient-to-br from-primary/20 via-secondary/10 to-accent/20 flex items-center justify-center mx-auto mb-6 shadow-2xl">
-          <FileQuestion className="h-12 w-12 text-primary-light" />
+        <div className="w-24 h-24 rounded-3xl bg-gradient-to-br from-primary/20 via-secondary/10 to-accent/10 flex items-center justify-center mx-auto mb-6 shadow-2xl">
+          <FileQuestion className="h-12 w-12 text-primary" />
         </div>
         <h1 className="text-6xl md:text-7xl font-bold gradient-text mb-4">404</h1>
         <p className="text-xl font-bold text-white mb-2">Página não encontrada</p>

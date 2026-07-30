@@ -39,7 +39,7 @@ export default function WhyChoose() {
           <span className="badge-secondary mb-4">{'Por que nós?'}</span>
           <h2 className="section-title">{'Por que escolher a Pox Print?'}</h2>
           <p className="section-subtitle mx-auto mt-4">
-            {'Há mais de 10 anos sendo a referência em gráfica rápida em Poxoréu'}
+            {'Há mais de 5 anos sendo a referência em gráfica rápida em Poxoréu'}
           </p>
         </motion.div>
 
@@ -53,8 +53,8 @@ export default function WhyChoose() {
               transition={{ delay: index * 0.1 }}
               className="glass rounded-2xl p-6 text-center group hover:border-primary/20 transition-all duration-500"
             >
-              <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mx-auto mb-5 group-hover:bg-primary/20 transition-colors duration-300">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary-light" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+              <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center mx-auto mb-5 group-hover:from-primary/30 group-hover:to-secondary/30 transition-all duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                   <path strokeLinecap="round" strokeLinejoin="round" d={item.icon} />
                 </svg>
               </div>

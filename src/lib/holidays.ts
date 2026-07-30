@@ -68,8 +68,8 @@ export function isHoliday(date: Date = new Date()): Holiday | null {
   return allHolidays.find((h) => h.date === dateStr) || null;
 }
 
-const STORE_HOURS_WEEKDAY = { open: 730, lunchStart: 1100, lunchEnd: 1300, close: 1700 };
-const STORE_HOURS_SATURDAY = { open: 730, close: 1100 };
+const STORE_HOURS_WEEKDAY = { open: 450, lunchStart: 660, lunchEnd: 780, close: 1020 };
+const STORE_HOURS_SATURDAY = { open: 450, close: 660 };
 
 export function getStoreStatus(): {
   isOpen: boolean;
@@ -104,8 +104,6 @@ export function getStoreStatus(): {
 
 function getNextOpenDay(now: Date): string {
   const day = now.getDay();
-  if (day <= 4) return "Amanhã às 07:30";
-  if (day === 5) return "Amanhã às 07:30";
   if (day === 6) return "Segunda às 07:30";
   return "Amanhã às 07:30";
 }

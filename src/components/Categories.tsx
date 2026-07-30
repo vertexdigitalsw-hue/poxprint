@@ -14,7 +14,7 @@ const catsWithCounts = mainCategories.map((cat) => ({
 export default function Categories() {
   return (
     <section className="relative py-24 bg-dark-bg">
-      <div className="absolute inset-0 bg-gradient-to-b from-dark-bg via-primary/5 to-dark-bg" />
+      <div className="absolute inset-0 bg-gradient-to-b from-dark-bg via-primary/[0.03] to-dark-bg" />
       <div className="relative max-w-7xl mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -29,7 +29,7 @@ export default function Categories() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
           {catsWithCounts.map((cat, index) => {
             const colors = mainCategoryColors[cat.key as MainCategory];
             return (

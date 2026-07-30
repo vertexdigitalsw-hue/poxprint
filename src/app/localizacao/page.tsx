@@ -52,7 +52,7 @@ export default function LocalizacaoPage() {
           >
             <div className="glass rounded-2xl p-6">
               <div className="flex items-center gap-3 mb-4">
-                <div className="p-2.5 rounded-xl bg-primary/15 text-primary-light">
+                <div className="p-2.5 rounded-xl bg-gradient-to-br from-primary/20 to-secondary/20 text-primary">
                   <MapPin className="h-5 w-5" />
                 </div>
                 <div>
@@ -103,7 +103,7 @@ export default function LocalizacaoPage() {
               href="https://www.google.com/maps/place/Pox+Print+Gr%C3%A1fica+R%C3%A1pida/@-15.837203,-54.3889498,153m"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 w-full py-4 px-4 rounded-xl bg-primary text-white font-semibold hover:bg-primary-dark transition-all shadow-lg shadow-primary/25"
+              className="flex items-center justify-center gap-2 w-full py-4 px-4 rounded-xl bg-gradient-to-r from-primary to-secondary text-white font-semibold hover:shadow-lg hover:shadow-primary/30 transition-all shadow-lg shadow-primary/25"
             >
               <Navigation className="h-5 w-5" />
               Abrir rota no Google Maps
